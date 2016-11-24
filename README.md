@@ -1,12 +1,12 @@
 # cocostemp
 
-ライブラリとヘッダがあればmakefileでビルドできる。Vimからでも。
+cocos2d-xプロジェクトを、ライブラリとヘッダがあればmakefileでビルドできる。Vimからでも。
 
 ## Usage
 
 1. clone repositry
-1. mv cocostemp PROJECTNAME
-1. cd cocostemp
+1. mv cocostemp PROJECT_NAME
+1. cd PROJECT_NAME
 1. bash init.sh
 1. make
 1. make run
