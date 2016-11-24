@@ -64,7 +64,9 @@ $(OBJDIR)/%.o: $(SRCDIR)/%.cpp
 all: clean $(TARGET)
 
 clean:
-	-rm -f $(OBJECTS) $(DEPENDS) $(TARGET)
+	rm -f $(OBJECTS) $(DEPENDS) $(TARGET)
+	rm -r bin/*
+
 
 run:
 	bin/$(PROJNAME).app/Contents/MacOS/$(PROJNAME)
