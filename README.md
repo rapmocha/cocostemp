@@ -16,9 +16,9 @@ cocos2d-xプロジェクトを、ライブラリとヘッダがあればmakefile
 - MacOSX 10.10.5 Yosemite
 - Xcode 7.2.1
 - cocos2d-x3.8 static library
-  - /usr/local/mylib/libcocos2dMac3.8
+  - /usr/local/mylib/libcocos2dMac3.8.a にあるとする
 - cocos2d-x3.8 library headers: copy from original cocos project
-  - /usr/local/myinclude/cocos2d
+  - /usr/local/myinclude/cocos2d にあるとする
 
 ## Note
 
