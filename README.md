@@ -1,14 +1,15 @@
 # cocostemp
 
-cocos2d-xプロジェクトを、ライブラリとヘッダがあればmakefileでビルドできる。Vimからでも。
+cocos2d-xプロジェクトをCMakeでビルドする。別途cocos2d-xの静的ライブラリが必要。
 
 ## Usage
 
 1. clone repositry
-1. mv cocostemp PROJECT_NAME
-1. cd PROJECT_NAME
-1. bash init.sh
-1. make
+1. mv cocostemp ProjectName
+1. cd ProjectName
+1. Edit CMakeLists.txt
+1. cd build
+1. cmake ..
 1. make run
 
 ## Requirement
@@ -22,4 +23,4 @@ cocos2d-xプロジェクトを、ライブラリとヘッダがあればmakefile
 
 ## Note
 
-Info.plistの更新が適当。
+Info.plist

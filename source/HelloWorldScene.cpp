@@ -1,3 +1,5 @@
+// Copyright 2016 rapmocha
+
 #include "HelloWorldScene.h"
 
 USING_NS_CC;
@@ -28,7 +30,8 @@ bool HelloWorld::init() {
   this->addChild(menu, 1);
 
   // label
-  auto label = Label::createWithTTF("Hello World!", "fonts/Marker Felt.ttf", 24);
+  auto label = Label::createWithTTF(
+      "Hello World!", "fonts/Marker Felt.ttf", 24);
   label->setPosition(Vec2(
         origin.x + visibleSize.width/2,
         origin.y + visibleSize.height - label->getContentSize().height));
